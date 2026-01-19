@@ -11,6 +11,6 @@ public class Main {
         n = nextDouble();
 
 
-        System.out.println("%.2f\n", n);
+        System.out.printf("%.2f\n", n);
     }
 }
