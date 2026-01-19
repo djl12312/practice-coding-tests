@@ -8,7 +8,7 @@ public class Main {
 
         double n;
 
-        n = nextDouble;
+        n = nextDouble();
 
 
         System.out.println("%.2f\n", n);
