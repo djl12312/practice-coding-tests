@@ -14,6 +14,8 @@ public class Main {
         if (N <= 0) {
             System.out.println(N);
             System.out.println("minus");
+        } else {
+            System.out.println(N);
         }
     }
 }
