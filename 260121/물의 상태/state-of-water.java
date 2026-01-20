@@ -14,7 +14,7 @@ public class Main {
 
             System.out.println("ice");
 
-        } else if (n > 100){
+        } else if (n >= 100){
         
             System.out.println("vapor");
         } else {
