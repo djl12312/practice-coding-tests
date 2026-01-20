@@ -6,7 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         char c;
 
-        n = next().charAt(0);
+        c = next().charAt(0);
 
         for (int i = 1; i <= 8; i++) {
             System.out.print(c);
