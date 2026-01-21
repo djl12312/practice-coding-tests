@@ -10,13 +10,13 @@ public class Main {
         Age = sc.nextInt();
         Sex = sc.nextInt();
 
-        if (Sex = 0) {
+        if (Sex == 0) {
             if (Age >= 19) {
             System.out.println("MAN");
             } else{
                 System.out.println("BOY");
             }
-        } else if (Sex = 1) {
+        } else if (Sex == 1) {
             if ( Age >= 19 ) {
             System.out.println("WOMAN");
             } else {
