@@ -13,7 +13,7 @@ public class Main {
 
             System.out.print("true");
 
-        } else if ( n % 5 && 0 || n % 2 == 0) {
+        } else if ( n % 5 == 0 && n % 2 == 0) {
             System.out.print("false");
         }
 
