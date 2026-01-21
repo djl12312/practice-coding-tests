@@ -4,8 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scannr sc = new Scanner(System.in);
 
-        int age;
-        int gender;
+        int age, gender;
 
         age = sc.nextInt();
         gender = sc.nextInt();
