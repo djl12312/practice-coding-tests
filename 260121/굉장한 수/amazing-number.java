@@ -14,7 +14,7 @@ public class Main {
             System.out.print("true");
 
         } else if ( n % 5 && 0 || n % 2 == 0) {
-            System.out.print("talse");
+            System.out.print("false");
         }
 
     }
