@@ -9,7 +9,7 @@ public class Main {
 
         A = sc.nextInt();
         
-        if ( A % 13 = 0 || A % 19 = 0 ) {
+        if ( A % 13 == 0 || A % 19 == 0 ) {
 
             System.out.print("True");
 
