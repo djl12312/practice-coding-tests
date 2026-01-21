@@ -4,20 +4,20 @@ public class Main {
     public static void main(String[] args) {
         Scannr sc = new Scanner(System.in);
 
-        int Age;
-        int Sex;
+        int age;
+        int gender;
 
-        Age = sc.nextInt();
-        Sex = sc.nextInt();
+        age = sc.nextInt();
+        gender = sc.nextInt();
 
-        if (Sex == 0) {
-            if (Age >= 19) {
+        if (gender == 0) {
+            if (age >= 19) {
             System.out.println("MAN");
             } else{
                 System.out.println("BOY");
             }
         } else {
-            if ( Age >= 19 ) {
+            if ( age >= 19 ) {
             System.out.println("WOMAN");
             } else {
                 System.out.println("GIRL");
