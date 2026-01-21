@@ -7,8 +7,8 @@ public class Main {
         int Age;
         int Sex;
 
-        Age = sc.nextIn();
-        Sex = sc.nextIn();
+        Age = sc.nextInt();
+        Sex = sc.nextInt();
 
         if (Sex = 0) {
             if (Age >= 19) {
