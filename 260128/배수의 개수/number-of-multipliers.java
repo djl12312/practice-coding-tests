@@ -8,14 +8,14 @@ public class Main {
         int a, cnt3 = 0, cnt5 = 0;
 
         for (int i = 1; i <= 10; i++) {
-             a = ac.nextInt();
+             a = sc.nextInt();
             
             if (a % 3 == 0)
                 cnt3++;
             if (a % 5 == 0) 
                 cnt5++;
         }
-        
+       
 
         System.out.println(cnt3 + " " + cnt5);
     }
