@@ -9,7 +9,8 @@ public class Main {
         char c = sc.next().charAt();
 
         System.out.println(c);
-        System.out.println(c);
+        System.out.printf("%.2f",a);
+        System.out.printf("%.2f",b);
 
         
     }
