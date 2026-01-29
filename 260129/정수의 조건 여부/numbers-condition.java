@@ -5,13 +5,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int a = sc.nextInt();
+        int b = sc.nextInt();
         
 
-            if (n >= 113) {
+            if (a > b) {
                 
-                System.out.println("1");
+                System.out.println(a * b);
             } else {
-                System.out.println("0");
+                System.out.println(b / a);
             }            
     }
 }
