@@ -7,7 +7,7 @@ public class Main {
         int a = sc.nextInt();
         
 
-            if (n > 113) {
+            if (n >= 113) {
                 
                 System.out.println("1");
             } else {
