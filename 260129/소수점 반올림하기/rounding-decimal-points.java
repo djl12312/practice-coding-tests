@@ -1,13 +1,11 @@
-import java.util.Scanner;
+
 
 public class Main {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        double a  = 25.352;
 
-        double a = sc.nextDouble();
-
-        System.out.printf("%.1f", a);
+        System.out.printf("%.1f\n", a);
         
     }
 }
