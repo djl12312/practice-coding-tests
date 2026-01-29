@@ -6,10 +6,11 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-         sum = a + b;
-         minus = a + b;
+         double sum = a + b;
+         double minus = a - b;
+         double total = sum / minus;
 
 
-        System.out.printf("%.2f", (sum/minus));
+        System.out.printf("%.2f", total);
     }
 }
